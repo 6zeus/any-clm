@@ -27,7 +27,6 @@ MODEL="Qwen/Qwen2.5-0.5B" # Set the path if you do not want to load from hugging
 # ATTENTION: specify the path to your training data, which should be a json file consisting of a list of conversations.
 # See the section for finetuning in README for more information.
 DATA="lucky2me/any-clm_text_conversation_common_zh"
-#any-clm/text/conversion/common_zh_70k.jsonl
 
 function usage() {
     echo '
